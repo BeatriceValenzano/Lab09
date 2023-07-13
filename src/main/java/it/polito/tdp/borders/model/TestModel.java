@@ -6,6 +6,10 @@ public class TestModel {
 
 		Model model = new Model();
 
+		model.creaGrafo(1900);
+		for(CountryAndNumber cn : model.getElenco()) {
+			System.out.println(cn.toString());
+		}
 		System.out.println("TestModel -- TODO");
 		
 //		System.out.println("Creo il grafo relativo al 2000");
